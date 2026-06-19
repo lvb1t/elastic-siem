@@ -58,7 +58,7 @@
 
 Срабатывание:
 
-![Срабатывание] (./images/pass_alert.jpg)
+![Срабатывание](./images/pass_alert.jpg)
 
 ---
 
