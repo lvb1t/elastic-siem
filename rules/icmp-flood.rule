@@ -1,0 +1,1 @@
+alert icmp any any -> $HOME_NET any (msg:"PING FLOOD DETECTED"; itype:8; detection_filter: track by_src, count 10, seconds 1; classtype:attempted-dos; sid:1000001; rev:1;)
