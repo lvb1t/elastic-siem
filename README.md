@@ -56,6 +56,10 @@
 
 ![Правило для AD](./images/ad_rule.jpg)
 
+Срабатывание:
+
+![Срабатывание] (./images/pass_alert.jpg)
+
 ---
 
 ### Тестирование встроенных правил Elastic Security

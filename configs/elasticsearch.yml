@@ -122,7 +122,6 @@ cluster.name: my-application
 node.name: node-1
 
 # ---------------------------- Сеть и HTTP -------------------------------------
-# Слушаем только localhost (безопасно, если доступ нужен только с этой ВМ)
 network.host: 0.0.0.0
 http.port: 9200
 
@@ -131,11 +130,11 @@ http.port: 9200
 discovery.type: single-node
 
 # ---------------------------- Отключение безопасности -------------------------
-# Полностью отключаем все функции X-Pack Security (SSL, аутентификация, авторизация)
+
 xpack.security.enabled: true
 xpack.security.transport.ssl.enabled: false
 xpack.security.http.ssl.enabled: false
 
-# ---------------------------- Пути к данным и логам (обычно по умолчанию) ----
+# ---------------------------- Пути к данным и логам  ----
 path.data: /var/lib/elasticsearch
 path.logs: /var/log/elasticsearch
