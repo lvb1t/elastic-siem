@@ -1,4 +1,4 @@
-# 🛡️ SIEM-система на базе Elastic Stack для кадрового агентства
+# 🛡️ SIEM-система на базе Elastic Stack
 
 ---
 
